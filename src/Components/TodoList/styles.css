@@ -1,0 +1,64 @@
+.todo-list-container {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='text'] {
+  width: 100%;
+  border-radius: 1rem 0 0 1rem;
+  padding: 1.5rem;
+  border: 0;
+  outline: 0;
+  background-color: #424750;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+input::-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+button {
+  width: 12rem;
+  padding: 1.5rem;
+  border-radius: 0 1rem 1rem 0;
+  cursor: pointer;
+  border: 0;
+  background-color: #4a148c;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #8a2be2;
+}
+
+.task-content {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  background-color: #4a148c;
+  border-radius: 1rem;
+}
+
+h2 {
+  color: black;
+}
+
+ul {
+  list-style: none;
+
+  padding: 0;
+}
